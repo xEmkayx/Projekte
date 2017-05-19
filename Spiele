@@ -1,0 +1,12 @@
+import random
+
+spiele = []
+
+while True:
+	new_spiel = input("Neues Spiel eingeben oder n eingeben, um Eingabe zu beenden.")
+	if new_spiel == "n": break
+	spiele.append(new_spiel)
+
+
+
+print(random.choice(spiele))
